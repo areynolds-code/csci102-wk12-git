@@ -14,3 +14,16 @@ def LoadFile (name):
 
 def UpdateString(string, rep, i):
     PrintOutput(string[0 : i] + rep + string[i + 1 : (len(string) - 1)])
+
+def FindWordCount(lis, string):
+    for i in lis:
+       j = 0
+       k = len(string) - 1
+       num = 0
+       while k < len(i):
+           if i [j : k] == string:
+               num += 1 
+           j += 1
+           k += 1
+       PrintOutput(num)
+
