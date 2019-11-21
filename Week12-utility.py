@@ -4,3 +4,5 @@
 
 def PrintOutput(thing):
     print ("OUTPUT", thing)
+
+def LoadFile (
