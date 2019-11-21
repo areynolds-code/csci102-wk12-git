@@ -11,3 +11,6 @@ def LoadFile (name):
     for i in fi:
         lines.append(i)
     return i
+
+def UpdateString(string, rep, i):
+    PrintOutput(string[0 : i] + rep + string[i + 1 : (len(string) - 1)])
