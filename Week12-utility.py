@@ -5,4 +5,9 @@
 def PrintOutput(thing):
     print ("OUTPUT", thing)
 
-def LoadFile (
+def LoadFile (name):
+    fi = open(name, "r")
+    lines = []
+    for i in fi:
+        lines.append(i)
+    return i
