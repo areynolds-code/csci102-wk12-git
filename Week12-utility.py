@@ -27,3 +27,5 @@ def FindWordCount(lis, string):
            k += 1
        PrintOutput(num)
 
+def ScoreFinder(player, score, string):
+    PrintOutput(string, "got a score of", 
